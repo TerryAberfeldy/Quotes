@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		298E546227FB6C6B00010AFE /* Lesson_16_module_2_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E546127FB6C6B00010AFE /* Lesson_16_module_2_challengeApp.swift */; };
-		298E546427FB6C6B00010AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E546327FB6C6B00010AFE /* ContentView.swift */; };
 		298E546627FB6C6E00010AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298E546527FB6C6E00010AFE /* Assets.xcassets */; };
 		298E546927FB6C6E00010AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298E546827FB6C6E00010AFE /* Preview Assets.xcassets */; };
+		298E547727FB78C300010AFE /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E547627FB78C300010AFE /* QuotesModel.swift */; };
+		298E547927FB79A700010AFE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 298E547827FB79A700010AFE /* data.json */; };
+		298E547B27FB7B0700010AFE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E547A27FB7B0700010AFE /* DataService.swift */; };
+		298E547D27FB7B8D00010AFE /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E547C27FB7B8D00010AFE /* QuotesViewModel.swift */; };
+		298E547F27FB7DC100010AFE /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E547E27FB7DC100010AFE /* QuotesListView.swift */; };
+		298E548127FB7DE200010AFE /* QuotesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E548027FB7DE200010AFE /* QuotesDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		298E545E27FB6C6B00010AFE /* Lesson 16 module 2 challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 16 module 2 challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298E546127FB6C6B00010AFE /* Lesson_16_module_2_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_16_module_2_challengeApp.swift; sourceTree = "<group>"; };
-		298E546327FB6C6B00010AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		298E546527FB6C6E00010AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298E546827FB6C6E00010AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		298E547627FB78C300010AFE /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
+		298E547827FB79A700010AFE /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		298E547A27FB7B0700010AFE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		298E547C27FB7B8D00010AFE /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		298E547E27FB7DC100010AFE /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
+		298E548027FB7DE200010AFE /* QuotesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				298E546127FB6C6B00010AFE /* Lesson_16_module_2_challengeApp.swift */,
-				298E546327FB6C6B00010AFE /* ContentView.swift */,
+				298E547327FB6CEE00010AFE /* Services */,
+				298E547227FB6CD600010AFE /* ViewModel */,
+				298E547127FB6CC400010AFE /* Views */,
+				298E547027FB6CB000010AFE /* Models */,
+				298E546F27FB6C9900010AFE /* Data */,
 				298E546527FB6C6E00010AFE /* Assets.xcassets */,
 				298E546727FB6C6E00010AFE /* Preview Content */,
 			);
@@ -65,6 +79,47 @@
 				298E546827FB6C6E00010AFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		298E546F27FB6C9900010AFE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				298E547827FB79A700010AFE /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		298E547027FB6CB000010AFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				298E547627FB78C300010AFE /* QuotesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		298E547127FB6CC400010AFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				298E547E27FB7DC100010AFE /* QuotesListView.swift */,
+				298E548027FB7DE200010AFE /* QuotesDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		298E547227FB6CD600010AFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				298E547C27FB7B8D00010AFE /* QuotesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		298E547327FB6CEE00010AFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				298E547A27FB7B0700010AFE /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298E546927FB6C6E00010AFE /* Preview Assets.xcassets in Resources */,
+				298E547927FB79A700010AFE /* data.json in Resources */,
 				298E546627FB6C6E00010AFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298E546427FB6C6B00010AFE /* ContentView.swift in Sources */,
 				298E546227FB6C6B00010AFE /* Lesson_16_module_2_challengeApp.swift in Sources */,
+				298E547727FB78C300010AFE /* QuotesModel.swift in Sources */,
+				298E547F27FB7DC100010AFE /* QuotesListView.swift in Sources */,
+				298E547D27FB7B8D00010AFE /* QuotesViewModel.swift in Sources */,
+				298E548127FB7DE200010AFE /* QuotesDetailView.swift in Sources */,
+				298E547B27FB7B0700010AFE /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,46 @@
+[
+{
+    "name":"Charles Swindoll",
+    "quotes":["We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+        "Each day of our lives we make deposits in the memory banks of our children.",
+        "The remarkable thing is, we have a choice everyday regarding the attitude we will embrace for that day.",
+    "When you have vision it affects your attitude. Your attitude is optimistic rather than pessimistic."],
+    "image":"ambition"
+},
+{
+    "name":"Winston Churchill",
+    "quotes":["If you are going through hell, keep going.",
+        "Success is not final, failure is not fatal, it is the courage to continue that counts.",
+        "To improve is to change, so to be perfect is to change often.",
+    "All wisdom is not new wisdom."],
+    "image":"calm"
+},
+{
+    "name":"Mahatma Gandhi",
+    "quotes":["Be the change that you wish to see in the world.",
+        "An ounce of patience is worth more than a tonne of preaching.",
+        "In a gentle way, you can shake the world.",
+    "A man is but a product of his thoughts.  What he thinks he becomes."],
+    "image":"focus"
+},
+{
+    "name":"Albert Einstein",
+    "quotes":["We cannot solve our problems with the same thinking we used to create them.",
+        "The true sign of intelligence is not knowledge but imagination.",
+        "The only reason for time is so that everything doesn't happen at once.",
+    "It should be possible to explain the laws of physics to a barmaid."],
+    "image":"reflect"
+},
+
+{
+    "name":"Maya Angelou",
+    "quotes":["You alone are enough.  You have nothing to prove to anybody",
+        "We need much less than we think we need.",
+        "I've learned that making a living is not the same thing as making a life.",
+    "I can be changed by what happens to me but I refuse to be reduced by it."],
+    "image":"reflect2"
+}
+
+
+]
+
